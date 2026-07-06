@@ -50,8 +50,80 @@ npm run dev      # starts on http://localhost:5173
 ## Folder Structure
 
 **Backend**
+backend/
+config/db.js
+models/
+User.js
+Event.js
+Booking.js
+Attendance.js
+Category.js
+Review.js
+Notification.js
+middleware/
+authMiddleware.js
+errorMiddleware.js
+uploadMiddleware.js
+controllers/
+authController.js
+eventController.js
+bookingController.js
+scanController.js
+attendanceController.js
+categoryController.js
+notificationController.js
+reviewController.js
+userController.js
+adminController.js
+routes/
+one route file per controller
+utils/
+seed.js
+sendNotification.js
+uploads/
+uploaded images (banners, avatars)
+server.js
 
 **Frontend**
+frontend/
+src/
+components/
+Navbar.jsx
+EventCard.jsx
+ProtectedRoute.jsx
+context/
+AuthContext.jsx
+ThemeContext.jsx
+layouts/
+MainLayout.jsx
+pages/
+Home.jsx
+Events.jsx
+EventDetails.jsx
+StudentDashboard.jsx
+Profile.jsx
+Notifications.jsx
+auth/
+Login.jsx
+Register.jsx
+ForgotPassword.jsx
+ResetPassword.jsx
+organizer/
+OrganizerDashboard.jsx
+CreateEvent.jsx
+ScanQR.jsx
+Registrations.jsx
+admin/
+AdminDashboard.jsx
+services/
+api.js
+authService.js
+eventService.js
+bookingService.js
+attendanceService.js
+notificationService.js
+adminService.js
+socket.js
 
 ## Deployment
 
